@@ -38,6 +38,7 @@ def hit?(num)
   else 
     invalid_command
     hit?(num)
+  end
 end
 
 def invalid_command
